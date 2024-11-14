@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Login and State-City Filter</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="login-container">
+      <h2>Login</h2>
+      <form id="login-form">
+        <input type="text" id="username" placeholder="Username" required><br>
+        <input type="password" id="password" placeholder="Password" required><br>
+        <button type="submit">Log In</button>
+      </form>
+    </div>
+
+    <div id="state-city-container" style="display: none;">
+      <h2>Select a State and City</h2>
+      <div>
+        <select id="state-select">
+          <option value="">Select State</option>
+        </select>
+      </div>
+      <div>
+        <select id="city-select" disabled>
+          <option value="">Select City</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="popup" class="popup" style="display: none;">
+      <div id="popup-message"></div>
+      <button onclick="closePopup()">Close</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

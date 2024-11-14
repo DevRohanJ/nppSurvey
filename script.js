@@ -1,6 +1,6 @@
 // URLs for Google Sheets with credentials and cities data
-const credentialsSheetURL = "https://spreadsheets.google.com/feeds/list/YOUR_CREDENTIALS_SHEET_ID/od6/public/values?alt=json";
-const statesCitiesSheetURL = "https://spreadsheets.google.com/feeds/list/YOUR_STATES_CITIES_SHEET_ID/od6/public/values?alt=json";
+const credentialsSheetURL = "https://spreadsheets.google.com/feeds/list/e/2PACX-1vTI8XAdbwsbbv4nnOAvRAqOcj-EKIVE7jo6nuuO9UHkCJMozSa0tX6RGKcuMZcRPkOEgRqSDdsKIG7G/pub?gid=0&single=true&output=csv/od6/public/values?alt=json";
+const statesCitiesSheetURL = "https://spreadsheets.google.com/feeds/list/e/2PACX-1vRaJMFCivSFM5ges266j8uGoQu-MKJ8nFM27mJhA0qIa-1AhMnAiqSi6fduJS57Jg9cVxMYhl8275GI/pub?gid=0&single=true&output=csv/od6/public/values?alt=json";
 
 // Fetch credentials from Google Sheets
 let users = [];
